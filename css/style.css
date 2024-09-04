@@ -1,0 +1,249 @@
+/* Header Part(Navigation)(1st Part) Start */
+.menu{
+    background-color: rgba(131, 218, 170, 0.397) ;
+}
+.menu img{
+    width: 150px;
+}
+.menu ul li a{
+    color: black;
+   margin: 5px;
+}
+.menu ul li  button{
+    background-color: rgba(32, 151, 78, 0.87);
+    border: none;
+    border-radius: 20px;
+    width: 80px;
+    height: 40px;
+    color: white;
+}
+.menu ul li  button:hover{
+    color: black;
+    background-color: rgba(15, 80, 40, 0.87);
+    transition: all linear .5s;
+    -o-transition: all linear .5s;
+    -webkit-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+    border-radius: 5px;
+    font-weight: bold;
+}
+/* Header Part(Navigation) (1st Part) End */
+
+/* Banner Part (2nd Part) Start */
+.banner{
+    height:500px;
+    background-color: rgba(131, 218, 170, 0.397);
+    padding-top: 100px;
+}
+.banner small{
+    color: orange;
+    font-size: 15px;
+}
+.banner h1{
+    font-weight: bold;
+}
+.banner .first_heading_tag_in_banner{
+    padding-top: 10px;
+}
+.banner h1 span{
+    color:rgba(32, 151, 78, 0.87);
+}
+.banner p{
+    color: gray;
+    text-align: left;
+}
+.banner img{
+    width: 100%;
+    
+}
+.banner button{
+    background-color: rgba(32, 151, 78, 0.87);
+    border: none;
+    border-radius: 20px;
+    width: 110px;
+    height: 40px;
+    color: white;
+}
+.banner  button:hover{
+    color: black;
+    background-color: rgba(15, 80, 40, 0.87);
+    transition: all linear .5s;
+    -o-transition: all linear .5s;
+    -webkit-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+    border-radius: 5px;
+    font-weight: bold;
+}
+/* Banner Part (2nd Part) End */
+
+/* 3rd Part Start */
+.third_part{
+    margin-top: 50px;
+}
+.third_part .box img{
+    width: 30%;
+    margin-top: 10%;
+}
+.third_part .box h4{
+    margin-top: 15px;
+}
+.third_part .box{
+    background-color: rgba(189, 214, 200, 0.397);
+    height: 200px;
+}
+.third_part .box:hover{
+    background-color: white;
+    box-shadow: 10px 10px 40px gray;
+    transition: all linear .5s;
+}
+.third_part .box .books img{
+    width: 25%;
+}
+.third_part .box h4,p{
+    text-align: center;
+}
+/* 3rd Part End */
+
+/* Online Course (4th Part) Start */
+.online-course h1{
+    text-align: center;
+    margin-top: 100px;
+    font-weight: bold;
+}
+.online-course .card-deck{
+    margin-top: 50px;
+}
+.online-course p{
+    text-align: left;
+}
+.online-course  button{
+    background-color: rgba(32, 151, 78, 0.87);
+    border: none;
+    border-radius: 20px;
+    width: 110px;
+    height: 40px;
+    color: white;
+}
+.online-course  button:hover{
+    color: black;
+    background-color: rgba(15, 80, 40, 0.87);
+    transition: all linear .5s;
+    -o-transition: all linear .5s;
+    -webkit-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.online-course .card-footer i{
+    padding-right: 5px;
+}
+.online-course .card-footer{
+    background-color: white;
+    border-top: none;
+}
+.online-course .card-deck  .card{
+    border: none;
+    box-shadow: 10px 10px 20px lightgrey;
+}
+.online-course .card-deck  .card:hover{
+    -webkit-box-shadow: 2px 7px 23px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 7px 23px 3px rgba(0,0,0,0.75);
+    box-shadow: 2px 7px 23px 3px rgba(0,0,0,0.75);
+    transition: all linear .5s;
+    -o-transition: all linear .5s;
+    -webkit-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+}
+/* Online Course (4th Part) End */
+
+/* Testimonial Part (5th Part) Start */
+.testimonial{
+    margin-top: 100px;
+}
+.testimonial img{
+    width: 70%;
+    margin-left: 50px;
+   
+}
+.testimonial h1{
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+.testimonial p{
+    text-align: left;
+    font-size: 15px;
+}
+/* Testimonial Part (5th Part) End */
+
+/* Facility (Bonus Part) Start */
+.facility h1{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.facility .underline{
+    width: 125px;
+    height: 5px;
+    margin: 0 auto;
+    display: block;
+    background-image: linear-gradient(#ffdd59,#0f750f);
+    border-radius: 5px;
+}
+.facility h5{
+    font-weight: bold;
+}
+.facility .card{
+    border: none;
+    margin-top: 50px;
+    box-shadow: 10px 10px 10px gray;
+    border-left: 2px solid rgb(32, 26, 26);
+}
+.facility .card:hover{
+    -webkit-box-shadow: -1px 2px 36px 4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 2px 36px 4px rgba(0,0,0,0.75);
+     box-shadow: -1px 2px 36px 4px rgba(0,0,0,0.75);
+     transition: all linear .5s;
+    -o-transition: all linear .5s;
+    -webkit-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+}
+.facility .card p{
+    text-align: left;
+    color: gray;
+}
+.facility .card a:hover{
+    background-color: rgba(15, 80, 40, 0.87);
+    border: none;
+    color: black;
+    font-weight: bold;
+    transition: all linear .5s;
+    -o-transition: all linear .5s;
+    -webkit-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+}
+/* Facility (Bonus Part) End */
+
+/* Footer Part Start */
+.footer{
+    background-color: rgb(25, 25, 43);
+    height: 300px;
+    margin-top: 50px;
+}
+.footer p{
+    color: white;
+    text-align: left;
+}
+.footer .para{
+    margin-top: 50px;
+}
+.footer .head-para{
+    margin-top: 50px;
+    font-weight: bold;
+}
+.footer .copyright{
+    color: gray;
+    text-align: center;
+    margin-top: 10px;
+}
+/* Footer Part End */
